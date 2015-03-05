@@ -48,7 +48,7 @@ APM2.5 Mavlink to FrSky X8R SPort interface using Teensy 3.1  http://www.pjrc.co
 #include "FrSkySPort.h"
 ////////////////////////////////
 
-#define _MavLinkSerial      Serial1
+#define _MavLinkSerial      Serial
 #define START                   1
 #define MSG_RATE            10              // Hertz
 
